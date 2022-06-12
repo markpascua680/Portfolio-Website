@@ -8,7 +8,32 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+.githubButton {
+    color: white;
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 18px;
+
+    border: solid 2px white;
+    border-radius: 64px;
+
+    padding: 5px 30px;
+
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+
+    .githubButton:hover {
+        background-color: white;
+        color: black;
+    }
+
 .image {
+    border: solid 2px white;
     width: 800px;
     height: 400px;
 }
