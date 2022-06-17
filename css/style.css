@@ -1,39 +1,48 @@
 body {
     background-color: #0d0e0f;
     color: white;
+    font-family: "proxima nova";
 }
 
 .header {
     border: 5px ridge white;
-    text-align: center;
+    text-align: start;
+    padding: 300px 100px 0px 100px;
+}
+
+.sections {
+    text-align: start;
+    padding: 250px 0px 50px 0px;
 }
 
 a {
     text-decoration: none;
 }
 
-.githubButton {
+.button {
     color: white;
-    font-family: "proxima nova";
     font-weight: 100;
     font-size: 18px;
-
+    
     border: solid 2px white;
     border-radius: 64px;
 
-    padding: 5px 30px;
+    padding: 5px 20px;
 
     -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
 }
 
-    .githubButton:hover {
+    .button:hover {
         background-color: white;
         color: black;
     }
 
 .image {
+    display: block;
     border: solid 2px white;
     width: 800px;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
